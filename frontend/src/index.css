@@ -7,21 +7,21 @@
 }
 
 :root {
-  --blush: #f9e8ea;
-  --blush-mid: #f2d6da;
-  --rose: #c9707e;
-  --rose-dark: #a85563;
-  --rose-light: #e8a0aa;
-  --cream: #fdf7f4;
-  --warm-white: #fffaf8;
-  --text-dark: #2c1a1e;
-  --text-mid: #6b4049;
-  --text-soft: #9b7078;
-  --border: rgba(201, 112, 126, 0.15);
-  --border-soft: rgba(201, 112, 126, 0.08);
-  --shadow-sm: 0 2px 12px rgba(180, 80, 100, 0.06);
-  --shadow-md: 0 8px 32px rgba(180, 80, 100, 0.1);
-  --shadow-lg: 0 16px 56px rgba(180, 80, 100, 0.14);
+  --blush: #FFF5F7;
+  --blush-mid: #F8E8EB;
+  --rose: #E4A7B6;
+  --rose-dark: #C98A99;
+  --rose-light: #F0C8D2;
+  --cream: #FFF;
+  --warm-white: #FFFFFF;
+  --text-dark: #4A3640;
+  --text-mid: #A67F8E;
+  --text-soft: #A67F8E;
+  --border: #E4A7B633;
+  --border-soft: #E4A7B633;
+  --shadow-sm: 0 4px 14px rgba(228, 167, 182, 0.12);
+  --shadow-md: 0 8px 24px rgba(228, 167, 182, 0.15);
+  --shadow-lg: 0 16px 40px rgba(228, 167, 182, 0.18);
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-display: 'Playfair Display', Georgia, serif;
   --font-sans: 'DM Sans', -apple-system, sans-serif;
@@ -82,6 +82,23 @@ img {
 @keyframes shimmer {
   0%   { background-position: -200% center; }
   100% { background-position: 200% center; }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-15px) rotate(2deg); }
+}
+
+@keyframes float-delayed {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-20px) rotate(-2deg); }
+}
+
+.glass-card {
+  background: var(--blush);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  border-radius: 24px;
 }
 
 @keyframes pulse-ring {

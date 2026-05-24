@@ -246,38 +246,11 @@ function App() {
     <div
       style={{
         minHeight: '100vh',
-        background: 'linear-gradient(160deg, #fff8f9 0%, #fdf2f4 40%, #fef8f5 100%)',
+        background: 'var(--warm-white)',
         position: 'relative',
         overflow: 'hidden',
       }}
     >
-      {/* Decorative blobs */}
-      <div
-        style={{
-          position: 'fixed',
-          top: '-15%',
-          right: '-15%',
-          width: '50vw',
-          height: '50vw',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(232,160,170,0.18) 0%, transparent 70%)',
-          pointerEvents: 'none',
-          zIndex: 0,
-        }}
-      />
-      <div
-        style={{
-          position: 'fixed',
-          bottom: '-10%',
-          left: '-10%',
-          width: '40vw',
-          height: '40vw',
-          borderRadius: '50%',
-          background: 'radial-gradient(circle, rgba(249,232,234,0.4) 0%, transparent 70%)',
-          pointerEvents: 'none',
-          zIndex: 0,
-        }}
-      />
 
       {/* Page wrapper — narrow centered column like link-in-bio apps */}
       <div
@@ -469,12 +442,8 @@ function App() {
 
         {/* ── ABOUT ME CARD ── */}
         <div
-          className="anim-fade-up delay-1"
+          className="anim-fade-up delay-1 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -522,12 +491,8 @@ function App() {
 
         {/* ── STATS CARD (ANALYTICS OVERVIEW) ── */}
         <div
-          className="anim-fade-up delay-2"
+          className="anim-fade-up delay-2 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -614,12 +579,8 @@ function App() {
 
         {/* ── SERVICES OFFERED CARD ── */}
         <div
-          className="anim-fade-up delay-2"
+          className="anim-fade-up delay-2 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -706,12 +667,8 @@ function App() {
 
         {/* ── CONTENT SHOWCASE CARD ── */}
         <div
-          className="anim-fade-up delay-3"
+          className="anim-fade-up delay-3 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -851,12 +808,8 @@ function App() {
 
         {/* ── BRAND COLLABORATIONS CARD (list style like reference) ── */}
         <div
-          className="anim-fade-up delay-3"
+          className="anim-fade-up delay-3 glass-card"
           style={{
-            background: 'linear-gradient(145deg, #fff8f9 0%, white 60%, #fdf2f4 100%)',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: '0 8px 32px rgba(180,80,100,0.08)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -952,12 +905,8 @@ function App() {
 
         {/* ── RATES CARD ── */}
         <div
-          className="anim-fade-up delay-4"
+          className="anim-fade-up delay-4 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -1023,12 +972,8 @@ function App() {
           </p>
         </div>
         <div
-          className="anim-fade-up delay-4"
+          className="anim-fade-up delay-4 glass-card"
           style={{
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
             padding: '32px 24px',
             marginBottom: '32px',
             textAlign: 'center',
@@ -1175,15 +1120,11 @@ function App() {
 
         {/* ── QUOTE / TAGLINE ── */}
         <div
-          className="anim-fade-up delay-8"
+          className="anim-fade-up delay-8 glass-card"
           style={{
             marginTop: '36px',
             textAlign: 'center',
             padding: '24px 20px',
-            background: 'white',
-            borderRadius: '24px',
-            border: '1px solid var(--border-soft)',
-            boxShadow: 'var(--shadow-sm)',
           }}
         >
           <p
