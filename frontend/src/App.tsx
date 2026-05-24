@@ -853,13 +853,15 @@ function App() {
           {/* List-style brand rows */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', textAlign: 'left' }}>
             {[
-              { name: 'Dot&Key',      type: 'Campaign Collaboration',
+              { name: 'Dot&Key',      type: 'Barter Collaboration',
                 icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg> },
-              { name: 'Joy',          type: 'Brand Partnership',
+              { name: 'Joy',          type: 'UGC Content ',
                 icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> },
-              { name: 'Lotus',        type: 'Gifted Collaboration',
+              { name: 'Lotus',        type: 'Barter Collaboration',
                 icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22V12"/><path d="M12 12C12 7 8 3 3 3c0 5 4 9 9 9"/><path d="M12 12c0-5 4-9 9-9c0 5-4 9-9 9"/><path d="M12 12c-3 0-5 2-5 5s2 5 5 5 5-2 5-5-2-5-5-5"/></svg> },
-              { name: "A'Dash of Me", type: 'UGC Content',
+              { name: "A'Dash of Me", type: 'Usage Right\'s',
+                icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> },
+              { name: "Worldofasaya", type: 'Barter Collaboration',
                 icon: <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> },
             ].map((brand, idx) => (
               <div
